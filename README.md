@@ -2,7 +2,7 @@
 
 Simple class to save and load ini-formatted file 
 
-### Example load values:
+### Load values:
 ```c++
 IniSettings settings("config.ini");
 settings.beginGroup("HELLO");
@@ -12,7 +12,7 @@ double       val3 = settings.value("val3", 0.);
 settings.endGroup();
 ```
 
-### Example save values:
+### Save values:
 ```c++
 IniSettings settings("config.ini");
 settings.beginGroup("HELLO");
